@@ -1,0 +1,10 @@
+output_metric,source_table,source_variables,definition
+median_household_income,B19013,B19013_001E,Median household income in 2024 inflation-adjusted dollars
+jurisdiction_county_income_ratio,B19013,B19013_001E,Jurisdiction median household income divided by county median household income
+renter_cost_burdened_count,B25070,B25070_007E through B25070_010E,Renter households spending at least 30% of income on gross rent
+renter_severely_burdened_count,B25070,B25070_010E,Renter households spending at least 50% of income on gross rent
+owner_cost_burdened_count,B25091,B25091_008E–011E and B25091_019E–022E,Homeowner households spending at least 30% of income on selected monthly owner costs
+owner_severely_burdened_count,B25091,B25091_011E and B25091_022E,Homeowner households spending at least 50% of income on selected monthly owner costs
+median_gross_rent_1br,B25031,B25031_003E,Median monthly gross rent for one-bedroom renter-occupied housing
+median_owner_cost_with_mortgage,B25088,B25088_002E,Median selected monthly owner costs for units with a mortgage
+median_owner_cost_without_mortgage,B25088,B25088_003E,Median selected monthly owner costs for units without a mortgage

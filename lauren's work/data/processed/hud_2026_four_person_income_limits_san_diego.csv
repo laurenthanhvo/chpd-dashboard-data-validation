@@ -1,0 +1,2 @@
+hud_fiscal_year,effective_date,geography_type,hud_area_name,county_name,four_person_hud_median_family_income,four_person_extremely_low_income_limit,four_person_very_low_income_limit,four_person_low_income_limit,source,source_file,note
+2026,2026-05-01,HUD income-limit area,"San Diego-Chula Vista-Carlsbad, CA MSA",San Diego County,130900,52450,87450,139900,HUD FY 2026 Section 8 Income Limits,Section8-FY26.xlsx,"HUD AMI is a regional income-limit benchmark, not a jurisdiction-specific median household income."

@@ -1,0 +1,5 @@
+jurisdiction,income_matches,income_ratio_matches,renter_burden_matches,severe_renter_burden_matches,owner_burden_matches,severe_owner_burden_matches,one_br_rent_matches,rent_to_income_matches,owner_cost_with_mortgage_matches,owner_cost_without_mortgage_matches,all_metrics_match,validated_against,validation_date
+Del Mar,True,True,True,True,True,True,True,True,True,True,True,Raw 2024 ACS five-year variables,2026-07-31
+Lemon Grove,True,True,True,True,True,True,True,True,True,True,True,Raw 2024 ACS five-year variables,2026-07-31
+San Diego,True,True,True,True,True,True,True,True,True,True,True,Raw 2024 ACS five-year variables,2026-07-31
+San Diego County,True,True,True,True,True,True,True,True,True,True,True,Raw 2024 ACS five-year variables,2026-07-31
