@@ -1,0 +1,5 @@
+output_metric,source_table,source_variables,definition
+bp_units_total,HCD APR Table A2,Sum of BP_*_INCOME columns,"Total housing units with a building permit issued, all income tiers, per jurisdiction-year"
+co_units_total,HCD APR Table A2,Sum of CO_*_INCOME columns,"Total housing units with a certificate of occupancy (completed), all income tiers, per jurisdiction-year"
+bp_affordable_share,HCD APR Table A2,bp_affordable_total / bp_units_total,"Share of permitted units in VLI, LI, or Moderate income categories (excludes Above Moderate)"
+co_affordable_share,HCD APR Table A2,co_affordable_total / co_units_total,"Share of completed units in VLI, LI, or Moderate income categories (excludes Above Moderate)"
