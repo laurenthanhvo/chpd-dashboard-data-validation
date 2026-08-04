@@ -1,0 +1,17 @@
+field,source,column
+Total population,DOF E-5,Total (population block)
+Household population,DOF E-5,Household
+Group quarters population,DOF E-5,Group Quarters
+Total housing units,DOF E-5,Total (housing block)
+Single detached units,DOF E-5,Single Detached
+Single attached units,DOF E-5,Single Attached
+2-4 unit buildings,DOF E-5,Two to Four
+5+ unit buildings,DOF E-5,Five Plus
+Mobile homes,DOF E-5,Mobile Homes
+Occupied units,DOF E-5,Occupied
+Vacancy rate,DOF E-5,Vacancy Rate
+Persons per household,DOF E-5,Persons per Household
+Total population,ACS 5-year,B01003_001E (population_total)
+Total housing units,ACS 5-year,B25001_001E (housing_units_total)
+Owner-occupied units,ACS 5-year,B25003_002E (owner_occupied)
+Renter-occupied units,ACS 5-year,B25003_003E (renter_occupied)
