@@ -1,4 +1,5 @@
 category,income_tier,source,field
+Application submitted,Acutely Low through Above Moderate (6 tiers),APR Table A,ACUTELY_LOW_INCOME_DR/_NDR ... ABOVE_MOD_INCOME (same 11-column pattern as Table A2's entitlement section)
 Entitlement,all tiers,APR Table A2,"ENT_APPROVE_DT1, NO_ENTITLEMENTS"
 Building permit,Acutely Low,APR Table A2,BP_ACUTELY_LOW_INCOME_DR / _NDR
 Building permit,Extremely Low,APR Table A2,BP_EXTREMELY_LOW_INCOME_DR / _NDR
