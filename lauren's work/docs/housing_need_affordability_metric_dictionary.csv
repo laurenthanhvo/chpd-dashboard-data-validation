@@ -1,10 +1,51 @@
-output_metric,source_table,source_variables,definition
-median_household_income,B19013,B19013_001E,Median household income in 2024 inflation-adjusted dollars
-jurisdiction_county_income_ratio,B19013,B19013_001E,Jurisdiction median household income divided by county median household income
-renter_cost_burdened_count,B25070,B25070_007E through B25070_010E,Renter households spending at least 30% of income on gross rent
-renter_severely_burdened_count,B25070,B25070_010E,Renter households spending at least 50% of income on gross rent
-owner_cost_burdened_count,B25091,B25091_008E–011E and B25091_019E–022E,Homeowner households spending at least 30% of income on selected monthly owner costs
-owner_severely_burdened_count,B25091,B25091_011E and B25091_022E,Homeowner households spending at least 50% of income on selected monthly owner costs
-median_gross_rent_1br,B25031,B25031_003E,Median monthly gross rent for one-bedroom renter-occupied housing
-median_owner_cost_with_mortgage,B25088,B25088_002E,Median selected monthly owner costs for units with a mortgage
-median_owner_cost_without_mortgage,B25088,B25088_003E,Median selected monthly owner costs for units without a mortgage
+output_metric,source_table,source_variables,definition,unit,geography,metric_type
+median_household_income,ACS B19013,B19013_001E,Median household income,dollars,jurisdiction/countywide,estimate
+median_household_income_moe,ACS B19013,B19013_001M,Margin of error for median household income,dollars,jurisdiction/countywide,margin of error
+county_median_household_income,ACS B19013,B19013_001E,Countywide median household income used as comparison benchmark,dollars,countywide,benchmark
+jurisdiction_county_income_ratio,ACS B19013,jurisdiction MHI / countywide MHI,Jurisdiction median household income divided by countywide median household income,ratio,jurisdiction,derived
+jurisdiction_county_income_pct,ACS B19013,jurisdiction_county_income_ratio * 100,Jurisdiction income as a percentage of countywide median household income,percent,jurisdiction,derived
+renter_households_computed,ACS B25070,B25070_001E minus B25070_011E,Renter households for which rent burden can be calculated,households,jurisdiction/countywide,denominator
+renter_cost_burdened_count,ACS B25070,B25070_007E through B25070_010E,Renter households spending at least 30% of income on gross rent,households,jurisdiction/countywide,observed burden
+renter_cost_burdened_count_moe,ACS B25070,combined MOE,Margin of error for renter cost-burdened count,households,jurisdiction/countywide,margin of error
+renter_cost_burdened_pct,ACS B25070,burdened count / computed renter households,Percentage of renter households spending at least 30% of income on gross rent,percent,jurisdiction/countywide,observed burden
+renter_severely_burdened_count,ACS B25070,B25070_010E,Renter households spending at least 50% of income on gross rent,households,jurisdiction/countywide,observed burden
+renter_severely_burdened_count_moe,ACS B25070,B25070_010M,Margin of error for severely burdened renter households,households,jurisdiction/countywide,margin of error
+renter_severely_burdened_pct,ACS B25070,severely burdened / computed renter households,Percentage of renter households spending at least 50% of income on gross rent,percent,jurisdiction/countywide,observed burden
+owner_with_mortgage_computed,ACS B25091,B25091_002E minus B25091_012E,Homeowners with a mortgage for whom burden can be calculated,households,jurisdiction/countywide,denominator
+owner_without_mortgage_computed,ACS B25091,B25091_013E minus B25091_023E,Homeowners without a mortgage for whom burden can be calculated,households,jurisdiction/countywide,denominator
+owner_cost_burdened_pct,ACS B25091,owner burdened count / computed owner households,Percentage of homeowner households spending at least 30% of income on owner costs,percent,jurisdiction/countywide,observed burden
+owner_severely_burdened_pct,ACS B25091,severely burdened owners / computed owner households,Percentage of homeowner households spending at least 50% of income on owner costs,percent,jurisdiction/countywide,observed burden
+owner_with_mortgage_burdened_pct,ACS B25091,with-mortgage burdened / with-mortgage computed,Cost-burden percentage for homeowners with a mortgage,percent,jurisdiction/countywide,observed burden
+owner_with_mortgage_severely_burdened_pct,ACS B25091,B25091_011E / with-mortgage computed,Severe cost-burden percentage for homeowners with a mortgage,percent,jurisdiction/countywide,observed burden
+owner_without_mortgage_burdened_pct,ACS B25091,without-mortgage burdened / without-mortgage computed,Cost-burden percentage for homeowners without a mortgage,percent,jurisdiction/countywide,observed burden
+owner_without_mortgage_severely_burdened_pct,ACS B25091,B25091_022E / without-mortgage computed,Severe cost-burden percentage for homeowners without a mortgage,percent,jurisdiction/countywide,observed burden
+owner_households_computed,ACS B25091,owner_with_mortgage_computed + owner_without_mortgage_computed,Homeowner households for which housing-cost burden can be calculated,households,jurisdiction/countywide,denominator
+owner_cost_burdened_count,ACS B25091,B25091 burden categories at or above 30%,Homeowner households spending at least 30% of income on selected monthly owner costs,households,jurisdiction/countywide,observed burden
+owner_cost_burdened_count_moe,ACS B25091,combined margin of error,Margin of error for cost-burdened homeowner count,households,jurisdiction/countywide,margin of error
+owner_severely_burdened_count,ACS B25091,B25091_011E + B25091_022E,Homeowner households spending at least 50% of income on selected monthly owner costs,households,jurisdiction/countywide,observed burden
+owner_severely_burdened_count_moe,ACS B25091,combined B25091_011M and B25091_022M,Margin of error for severely cost-burdened homeowner count,households,jurisdiction/countywide,margin of error
+owner_with_mortgage_burdened_count,ACS B25091,with-mortgage burden categories at or above 30%,Cost-burdened homeowner households with a mortgage,households,jurisdiction/countywide,observed burden
+owner_with_mortgage_severely_burdened_count,ACS B25091,B25091_011E,Severely cost-burdened homeowner households with a mortgage,households,jurisdiction/countywide,observed burden
+owner_without_mortgage_burdened_count,ACS B25091,without-mortgage burden categories at or above 30%,Cost-burdened homeowner households without a mortgage,households,jurisdiction/countywide,observed burden
+owner_without_mortgage_severely_burdened_count,ACS B25091,B25091_022E,Severely cost-burdened homeowner households without a mortgage,households,jurisdiction/countywide,observed burden
+median_gross_rent_1br,ACS B25031,B25031_003E,Median monthly gross rent for a one-bedroom renter-occupied unit,dollars/month,jurisdiction/countywide,estimate
+median_gross_rent_1br_moe,ACS B25031,B25031_003M,Margin of error for one-bedroom median gross rent,dollars/month,jurisdiction/countywide,margin of error
+one_br_rent_to_income_pct,ACS B25031 + B19013,annual one-bedroom rent / median household income,Benchmark comparing one-bedroom gross rent with median income for all households; not observed renter burden,percent,jurisdiction/countywide,benchmark
+median_owner_cost_with_mortgage,ACS B25088,B25088_002E,Median selected monthly owner costs for owners with a mortgage,dollars/month,jurisdiction/countywide,estimate
+median_owner_cost_without_mortgage,ACS B25088,B25088_003E,Median selected monthly owner costs for owners without a mortgage,dollars/month,jurisdiction/countywide,estimate
+median_owner_cost_with_mortgage_moe,ACS B25088,B25088_002M,Margin of error for median selected monthly owner costs with a mortgage,dollars/month,jurisdiction/countywide,margin of error
+median_owner_cost_without_mortgage_moe,ACS B25088,B25088_003M,Margin of error for median selected monthly owner costs without a mortgage,dollars/month,jurisdiction/countywide,margin of error
+median_owner_cost_with_mortgage_top_coded,ACS B25088,B25088_002EA,Indicates that the median falls in the highest open-ended owner-cost interval,boolean,jurisdiction/countywide,data-quality flag
+median_owner_cost_without_mortgage_top_coded,ACS B25088,B25088_003EA,Indicates that the median falls in the highest open-ended owner-cost interval,boolean,jurisdiction/countywide,data-quality flag
+owner_cost_with_mortgage_to_income_pct,ACS B25088 + B19013,annual owner costs / median household income,Benchmark using median household income for all households; not observed homeowner burden,percent,jurisdiction/countywide,benchmark
+owner_cost_without_mortgage_to_income_pct,ACS B25088 + B19013,annual owner costs / median household income,Benchmark using median household income for all households; not observed homeowner burden,percent,jurisdiction/countywide,benchmark
+hud_four_person_median_family_income,HUD FY2026 Income Limits,four-person HUD median family income,HUD regional four-person median family income benchmark,dollars/year,San Diego regional,benchmark
+hud_four_person_extremely_low_income_limit,HUD FY2026 Income Limits,four-person extremely low-income limit,HUD four-person extremely low-income limit,dollars/year,San Diego regional,benchmark
+hud_four_person_very_low_income_limit,HUD FY2026 Income Limits,four-person very low-income limit,HUD four-person very low-income limit,dollars/year,San Diego regional,benchmark
+hud_four_person_low_income_limit,HUD FY2026 Income Limits,four-person low-income limit,HUD four-person low-income limit,dollars/year,San Diego regional,benchmark
+federally_assisted_properties,NHPD,NHPDPropertyID,Number of active federally assisted properties,properties,jurisdiction,inventory
+total_units_in_assisted_properties,NHPD,TotalUnits,Total units located in active assisted properties; includes assisted and unassisted units,housing units,jurisdiction,inventory
+properties_expiring_within_5_years,NHPD,PropertyStatus + EarliestEndDate,Active assisted properties with an earliest subsidy expiration within five years,properties,jurisdiction,preservation risk
+units_in_expiring_properties,NHPD,TotalUnits + expiration flag,Total units located in properties with an earliest subsidy expiration within five years,housing units,jurisdiction,preservation risk
+expiring_subsidies,NHPD,subsidy_end_date,Number of subsidy records with an expiration date within the next five years,subsidies,jurisdiction/program,preservation risk
+assisted_units_with_expiring_subsidy,NHPD,assisted_units + subsidy_end_date,Assisted units reported on subsidy records expiring within five years; may overlap across subsidy programs,assisted units,jurisdiction/program,preservation risk

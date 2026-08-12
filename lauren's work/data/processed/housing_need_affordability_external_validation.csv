@@ -1,0 +1,4 @@
+jurisdiction,table,variable,processed_column,processed_value,fresh_census_value,matches,data_census_table
+San Diego,B19013,B19013_001E,median_household_income,108077.0,108077,True,https://data.census.gov/table/ACSDT5Y2024.B19013
+Del Mar,B25031,B25031_003E,median_gross_rent_1br,3003.0,3003,True,https://data.census.gov/table/ACSDT5Y2024.B25031
+Lemon Grove,B25088,B25088_002E,median_owner_cost_with_mortgage,2538.0,2538,True,https://data.census.gov/table/ACSDT5Y2024.B25088

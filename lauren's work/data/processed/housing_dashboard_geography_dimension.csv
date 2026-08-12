@@ -1,0 +1,21 @@
+jurisdiction,geography_type,acs_affordability_available
+Carlsbad,incorporated jurisdiction,True
+Chula Vista,incorporated jurisdiction,True
+Coronado,incorporated jurisdiction,True
+Del Mar,incorporated jurisdiction,True
+El Cajon,incorporated jurisdiction,True
+Encinitas,incorporated jurisdiction,True
+Escondido,incorporated jurisdiction,True
+Imperial Beach,incorporated jurisdiction,True
+La Mesa,incorporated jurisdiction,True
+Lemon Grove,incorporated jurisdiction,True
+National City,incorporated jurisdiction,True
+Oceanside,incorporated jurisdiction,True
+Poway,incorporated jurisdiction,True
+San Diego,incorporated jurisdiction,True
+San Marcos,incorporated jurisdiction,True
+Santee,incorporated jurisdiction,True
+Solana Beach,incorporated jurisdiction,True
+Vista,incorporated jurisdiction,True
+Unincorporated San Diego County,unincorporated county,False
+San Diego County (Countywide),countywide,True
