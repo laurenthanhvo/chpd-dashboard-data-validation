@@ -1,0 +1,5 @@
+dashboard_tab,file,use_for
+RHNA,powerbi_rhna_production_2018_2025_long.csv,"RHNA allocation/progress/remaining/% complete plus separate applications, entitlements, permits, and completions."
+Housing Production,powerbi_production_by_housing_type_2018_2025.csv,"Permitted and completed housing units by year, jurisdiction, and HCD housing type."
+Housing Production,powerbi_housing_stock_benchmarks_2000_2010_2021_2024.csv,2000/2010/2021/2024 total-housing-stock benchmark comparison.
+Housing Production,powerbi_dof_annual_housing_stock_2020_2025.csv,"Annual 2020-2025 housing-stock totals, occupied/vacant units, and DOF structure categories."

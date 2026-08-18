@@ -1,0 +1,21 @@
+category,income_tier,source,field
+Application submitted,Acutely Low through Above Moderate (6 tiers),APR Table A,ACUTELY_LOW_INCOME_DR/_NDR ... ABOVE_MOD_INCOME (same 11-column pattern as Table A2's entitlement section)
+Entitlement,Very Low / Low / Moderate / Above Moderate,APR Table A2,"Unprefixed income-unit fields: ACUTELY_LOW_INCOME_DR/_NDR, EXTREMELY_LOW_INCOME_DR/_NDR, VLOW_INCOME_DR/_NDR, LOW_INCOME_DR/_NDR, MOD_INCOME_DR/_NDR, ABOVE_MOD_INCOME"
+Building permit,Acutely Low,APR Table A2,BP_ACUTELY_LOW_INCOME_DR / _NDR
+Building permit,Extremely Low,APR Table A2,BP_EXTREMELY_LOW_INCOME_DR / _NDR
+Building permit,Very Low,APR Table A2,BP_VLOW_INCOME_DR / _NDR
+Building permit,Low,APR Table A2,BP_LOW_INCOME_DR / _NDR
+Building permit,Moderate,APR Table A2,BP_MOD_INCOME_DR / _NDR
+Building permit,Above Moderate,APR Table A2,BP_ABOVE_MOD_INCOME
+Completion (certificate of occupancy),Acutely Low,APR Table A2,CO_ACUTELY_LOW_INCOME_DR / _NDR
+Completion (certificate of occupancy),Extremely Low,APR Table A2,CO_EXTREMELY_LOW_INCOME_DR / _NDR
+Completion (certificate of occupancy),Very Low,APR Table A2,CO_VLOW_INCOME_DR / _NDR
+Completion (certificate of occupancy),Low,APR Table A2,CO_LOW_INCOME_DR / _NDR
+Completion (certificate of occupancy),Moderate,APR Table A2,CO_MOD_INCOME_DR / _NDR
+Completion (certificate of occupancy),Above Moderate,APR Table A2,CO_ABOVE_MOD_INCOME
+RHNA target,VLI / LI / Moderate / Above Moderate,RHNA6 progress,"RHNA VLI, RHNA LI, RHNA MOD, RHNA ABOVE MOD"
+RHNA progress,VLI / LI / Moderate / Above Moderate,RHNA6 progress,"VLI UNITS, LI UNITS, MOD UNITS, ABOVE MOD UNITS"
+City permit approval,Extremely Low / Very Low / Low / Moderate / Above Moderate,City of SD permits,APPROVAL_DU_EXTREMELY_LOW ... APPROVAL_DU_ABOVE_MODERATE
+ADU,n/a,City of SD permits,APPROVAL_ADU_TOTAL (plus per-tier APPROVAL_ADU_* columns)
+JADU,n/a,City of SD permits,APPROVAL_JADU_TOTAL (plus per-tier APPROVAL_JADU_* columns)
+Preservation (existing affordable units retained),n/a,APR Table F (not yet loaded in this notebook),see sd_apr_f_preservation_city_year.csv in dashboard prototype

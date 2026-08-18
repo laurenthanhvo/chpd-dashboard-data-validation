@@ -1,0 +1,16 @@
+requirement,status,output
+RHNA allocation total and by income category,Complete,Main RHNA/production Power BI fact table
+"RHNA progress by region, jurisdiction, and income category",Complete,"Allocation, qualifying units, remaining units, percent complete"
+Applications submitted,Complete,"APR Table A, 2018-2025"
+Entitlements / planning approvals,Complete,"APR Table A2, stage-date filtered"
+Building permits issued,Complete,"APR Table A2, stage-date filtered"
+Units under construction,Documented unavailable,Not inferred from APR; add only if a separate defensible regionwide source becomes available
+Completed units / certificates of occupancy,Complete,"APR Table A2, stage-date filtered"
+Historical APR from 2018 onward,Complete,2018-2025
+Production by housing type,Complete,"SFD, SFA, 2-4 combined, 5+, ADU, MH; permits and completions"
+Completed housing since 2018 by year/jurisdiction/type,Complete,Housing-type Power BI fact table
+Current overall housing stock,Complete,DOF E-5 jurisdiction + countywide
+Stock by occupied/vacant and structure categories,Complete,DOF E-5 annual housing-stock fact table
+"Housing stock benchmarks: 2000, 2010, 2021, 2024",Complete,Census/ACS benchmark Power BI table
+Annual housing supply estimates,Complete,DOF E-5 2020-2025
+Housing deficit context,Complete - intentionally not calculated,"Existing stock, RHNA allocation, and remaining RHNA need are kept separate; no unsupported deficit measure is created"
