@@ -1,0 +1,19 @@
+NAME,housing_units_total,state,place,jur_clean
+"Carlsbad city, California",33798,06,11194,carlsbad
+"Chula Vista city, California",59495,06,13392,chula vista
+"Coronado city, California",9494,06,16378,coronado
+"Del Mar city, California",2557,06,18506,del mar
+"El Cajon city, California",35190,06,21712,el cajon
+"Encinitas city, California",23843,06,22678,encinitas
+"Escondido city, California",45050,06,22804,escondido
+"Imperial Beach city, California",9739,06,36294,imperial beach
+"La Mesa city, California",24943,06,40004,la mesa
+"Lemon Grove city, California",8722,06,41124,lemon grove
+"National City city, California",15422,06,50398,national city
+"Oceanside city, California",59581,06,53322,oceanside
+"Poway city, California",15714,06,58520,poway
+"San Diego city, California",469689,06,66000,san diego
+"San Marcos city, California",18862,06,68196,san marcos
+"Santee city, California",18833,06,70224,santee
+"Solana Beach city, California",6456,06,72506,solana beach
+"Vista city, California",29814,06,82996,vista
