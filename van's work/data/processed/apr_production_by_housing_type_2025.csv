@@ -1,0 +1,81 @@
+jur_clean,UNIT_CAT,bp_units_total,co_units_total,project_rows,housing_type
+carlsbad,2 to 4,5,0,2,2-4 Unit Buildings
+carlsbad,5+,175,385,15,5+ Unit Buildings
+carlsbad,ADU,77,78,150,Accessory Dwelling Unit
+carlsbad,SFA,81,229,219,Single-Family Attached
+carlsbad,SFD,5,27,42,Single-Family Detached
+chula vista,2 to 4,86,206,118,2-4 Unit Buildings
+chula vista,5+,383,964,95,5+ Unit Buildings
+chula vista,ADU,223,202,367,Accessory Dwelling Unit
+chula vista,SFD,31,56,83,Single-Family Detached
+coronado,2 to 4,0,8,2,2-4 Unit Buildings
+coronado,ADU,9,9,18,Accessory Dwelling Unit
+coronado,SFD,15,19,34,Single-Family Detached
+del mar,ADU,14,17,43,Accessory Dwelling Unit
+el cajon,2 to 4,0,2,1,2-4 Unit Buildings
+el cajon,5+,16,75,6,5+ Unit Buildings
+el cajon,ADU,86,63,118,Accessory Dwelling Unit
+el cajon,SFA,104,87,26,Single-Family Attached
+el cajon,SFD,4,8,13,Single-Family Detached
+encinitas,2 to 4,0,0,5,2-4 Unit Buildings
+encinitas,5+,39,98,139,5+ Unit Buildings
+encinitas,ADU,85,91,191,Accessory Dwelling Unit
+encinitas,SFA,1,4,8,Single-Family Attached
+encinitas,SFD,62,35,118,Single-Family Detached
+escondido,2 to 4,0,4,3,2-4 Unit Buildings
+escondido,5+,260,367,35,5+ Unit Buildings
+escondido,ADU,117,70,156,Accessory Dwelling Unit
+escondido,SFA,0,0,1,Single-Family Attached
+escondido,SFD,137,163,201,Single-Family Detached
+imperial beach,2 to 4,14,4,11,2-4 Unit Buildings
+imperial beach,ADU,56,8,73,Accessory Dwelling Unit
+imperial beach,SFD,1,1,2,Single-Family Detached
+la mesa,2 to 4,4,0,2,2-4 Unit Buildings
+la mesa,5+,136,157,11,5+ Unit Buildings
+la mesa,ADU,81,68,149,Accessory Dwelling Unit
+la mesa,SFA,1,8,11,Single-Family Attached
+la mesa,SFD,32,16,50,Single-Family Detached
+lemon grove,ADU,29,39,51,Accessory Dwelling Unit
+lemon grove,SFA,0,22,22,Single-Family Attached
+lemon grove,SFD,3,0,4,Single-Family Detached
+national city,ADU,49,39,83,Accessory Dwelling Unit
+national city,MH,0,193,3,Mobile / Manufactured Home
+national city,SFA,1,0,1,Single-Family Attached
+national city,SFD,1,2,3,Single-Family Detached
+oceanside,2 to 4,3,5,4,2-4 Unit Buildings
+oceanside,5+,433,311,37,5+ Unit Buildings
+oceanside,ADU,81,76,151,Accessory Dwelling Unit
+oceanside,SFA,162,14,27,Single-Family Attached
+oceanside,SFD,213,99,299,Single-Family Detached
+poway,2 to 4,0,1,1,2-4 Unit Buildings
+poway,ADU,36,29,65,Accessory Dwelling Unit
+poway,SFD,52,17,70,Single-Family Detached
+san diego,2 to 4,12,0,6,2-4 Unit Buildings
+san diego,5+,5302,34,66,5+ Unit Buildings
+san diego,ADU,2165,264,1473,Accessory Dwelling Unit
+san diego,SFA,279,150,222,Single-Family Attached
+san diego,SFD,84,5,70,Single-Family Detached
+san marcos,2 to 4,4,0,2,2-4 Unit Buildings
+san marcos,5+,355,36,9,5+ Unit Buildings
+san marcos,ADU,30,32,52,Accessory Dwelling Unit
+san marcos,SFA,329,173,72,Single-Family Attached
+san marcos,SFD,55,56,78,Single-Family Detached
+santee,2 to 4,0,0,2,2-4 Unit Buildings
+santee,5+,0,0,3,5+ Unit Buildings
+santee,ADU,24,22,46,Accessory Dwelling Unit
+santee,SFA,0,27,27,Single-Family Attached
+santee,SFD,21,1,24,Single-Family Detached
+solana beach,2 to 4,0,0,1,2-4 Unit Buildings
+solana beach,ADU,30,14,43,Accessory Dwelling Unit
+solana beach,SFD,7,0,10,Single-Family Detached
+unincorporated san diego county,2 to 4,0,8,8,2-4 Unit Buildings
+unincorporated san diego county,5+,65,102,167,5+ Unit Buildings
+unincorporated san diego county,ADU,403,407,719,Accessory Dwelling Unit
+unincorporated san diego county,MH,84,82,128,Mobile / Manufactured Home
+unincorporated san diego county,SFA,4,10,14,Single-Family Attached
+unincorporated san diego county,SFD,376,334,598,Single-Family Detached
+vista,2 to 4,12,4,7,2-4 Unit Buildings
+vista,5+,36,77,8,5+ Unit Buildings
+vista,ADU,100,100,200,Accessory Dwelling Unit
+vista,SFA,4,0,4,Single-Family Attached
+vista,SFD,37,23,62,Single-Family Detached
