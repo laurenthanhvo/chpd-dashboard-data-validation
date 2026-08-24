@@ -1,0 +1,33 @@
+Metric,Jurisdiction,Year / Period,Notebook Value
+Population,Carlsbad,2020–2024 ACS 5-year,NOT IN CURRENT NOTEBOOK OUTPUT
+Median Household Income,Encinitas,2020–2024 ACS 5-year,162229.0
+San Diego County Median Household Income,San Diego County (Countywide),2020–2024 ACS 5-year,106268.0
+Jurisdiction / County Income Ratio,National City,2020–2024 ACS 5-year,0.629
+Renter Cost-Burdened Households - Count,El Cajon,2020–2024 ACS 5-year,13157.0
+Renter Cost-Burdened Households - Percent,Lemon Grove,2020–2024 ACS 5-year,61.82
+Severely Cost-Burdened Renters - Count,Oceanside,2020–2024 ACS 5-year,7232.0
+Severely Cost-Burdened Renters - Percent,San Marcos,2020–2024 ACS 5-year,34.48
+Homeowner Cost-Burdened Households - Count,Poway,2020–2024 ACS 5-year,3264.0
+Homeowner Cost-Burdened Households - Percent,Chula Vista,2020–2024 ACS 5-year,33.68
+Severely Cost-Burdened Homeowners - Count,Coronado,2020–2024 ACS 5-year,860.0
+Severely Cost-Burdened Homeowners - Percent,Solana Beach,2020–2024 ACS 5-year,29.37
+Homeowner Cost Burden - With Mortgage,San Diego,2020–2024 ACS 5-year,37.7
+Homeowner Cost Burden - Without Mortgage,La Mesa,2020–2024 ACS 5-year,12.86
+Median Gross Rent - 1 Bedroom,Del Mar,2020–2024 ACS 5-year,3003.0
+1BR Rent-to-Income Percent,Imperial Beach,2020–2024 ACS 5-year,24.33
+Median Owner Costs - With Mortgage,Lemon Grove,2020–2024 ACS 5-year,2538.0
+Median Owner Costs - Without Mortgage,Encinitas,2020–2024 ACS 5-year,993.0
+Owner-Cost-to-Income Percent,Carlsbad,2020–2024 ACS 5-year,31.45
+Median Home Value,Vista,2020–2024 ACS 5-year,NOT IN CURRENT NOTEBOOK OUTPUT
+Median Sale Price,Santee,Not in current notebook,NOT IN CURRENT NOTEBOOK OUTPUT
+Federally Assisted Properties,San Diego,NHPD data pending,DATA PENDING — NHPD not loaded
+Federally Assisted Units,Chula Vista,NHPD data pending,DATA PENDING — NHPD not loaded
+Federal Housing Program,Oceanside,NHPD data pending,DATA PENDING — NHPD not loaded
+Affordability / Subsidy Status,Escondido,NHPD data pending,DATA PENDING — NHPD not loaded
+Affordability Expiration Date,National City,NHPD data pending,DATA PENDING — NHPD not loaded
+At-Risk Assisted Properties,El Cajon,NHPD 5-year risk window — data pending,DATA PENDING — NHPD not loaded
+At-Risk Assisted Units,Vista,NHPD 5-year risk window — data pending,DATA PENDING — NHPD not loaded
+4-Person HUD Median Family Income,San Diego County (Regional HUD benchmark),HUD FY 2026 (effective 2026-05-01),130900
+4-Person Extremely Low Income Limit,San Diego County (Regional HUD benchmark),HUD FY 2026 (effective 2026-05-01),52450
+4-Person Very Low Income Limit,San Diego County (Regional HUD benchmark),HUD FY 2026 (effective 2026-05-01),87450
+4-Person Low Income Limit,San Diego County (Regional HUD benchmark),HUD FY 2026 (effective 2026-05-01),139900
