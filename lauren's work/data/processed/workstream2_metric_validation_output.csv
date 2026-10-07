@@ -1,5 +1,5 @@
 Metric,Jurisdiction,Year / Period,Notebook Value
-Population,Carlsbad,2020–2024 ACS 5-year,NOT IN CURRENT NOTEBOOK OUTPUT
+Population,Carlsbad,2020–2024 ACS 5-year,114373.0
 Median Household Income,Encinitas,2020–2024 ACS 5-year,162229.0
 San Diego County Median Household Income,San Diego County (Countywide),2020–2024 ACS 5-year,106268.0
 Jurisdiction / County Income Ratio,National City,2020–2024 ACS 5-year,0.629
@@ -18,15 +18,15 @@ Median Gross Rent - 1 Bedroom,Del Mar,2020–2024 ACS 5-year,3003.0
 Median Owner Costs - With Mortgage,Lemon Grove,2020–2024 ACS 5-year,2538.0
 Median Owner Costs - Without Mortgage,Encinitas,2020–2024 ACS 5-year,993.0
 Owner-Cost-to-Income Percent,Carlsbad,2020–2024 ACS 5-year,31.45
-Median Home Value,Vista,2020–2024 ACS 5-year,NOT IN CURRENT NOTEBOOK OUTPUT
+Median Home Value,Vista,2020–2024 ACS 5-year,762400.0
 Median Sale Price,Santee,Not in current notebook,NOT IN CURRENT NOTEBOOK OUTPUT
-Federally Assisted Properties,San Diego,NHPD data pending,DATA PENDING — NHPD not loaded
-Federally Assisted Units,Chula Vista,NHPD data pending,DATA PENDING — NHPD not loaded
-Federal Housing Program,Oceanside,NHPD data pending,DATA PENDING — NHPD not loaded
-Affordability / Subsidy Status,Escondido,NHPD data pending,DATA PENDING — NHPD not loaded
-Affordability Expiration Date,National City,NHPD data pending,DATA PENDING — NHPD not loaded
-At-Risk Assisted Properties,El Cajon,NHPD 5-year risk window — data pending,DATA PENDING — NHPD not loaded
-At-Risk Assisted Units,Vista,NHPD 5-year risk window — data pending,DATA PENDING — NHPD not loaded
+Federally Assisted Properties,San Diego,Current NHPD extract,210
+Federally Assisted Units,Chula Vista,Current NHPD extract,2607
+Federal Housing Program,Oceanside,Current NHPD extract,202/8 NC
+Affordability / Subsidy Status,Escondido,Current NHPD extract,Active
+Affordability Expiration Date,National City,Current NHPD extract,2027-03-21 00:00:00
+At-Risk Assisted Properties,El Cajon,Current NHPD extract — 5-year risk window,4
+At-Risk Assisted Units,Vista,Current NHPD extract — 5-year risk window,53
 4-Person HUD Median Family Income,San Diego County (Regional HUD benchmark),HUD FY 2026 (effective 2026-05-01),130900
 4-Person Extremely Low Income Limit,San Diego County (Regional HUD benchmark),HUD FY 2026 (effective 2026-05-01),52450
 4-Person Very Low Income Limit,San Diego County (Regional HUD benchmark),HUD FY 2026 (effective 2026-05-01),87450

@@ -1,4 +1,6 @@
 output_metric,source_table,source_variables,definition,unit,geography,metric_type
+population,ACS B01003,B01003_001E,Total population,people,jurisdiction/countywide,estimate
+population_moe,ACS B01003,B01003_001M,Margin of error for total population,people,jurisdiction/countywide,margin of error
 median_household_income,ACS B19013,B19013_001E,Median household income,dollars,jurisdiction/countywide,estimate
 median_household_income_moe,ACS B19013,B19013_001M,Margin of error for median household income,dollars,jurisdiction/countywide,margin of error
 county_median_household_income,ACS B19013,B19013_001E,Countywide median household income used as comparison benchmark,dollars,countywide,benchmark
@@ -31,6 +33,8 @@ owner_without_mortgage_severely_burdened_count,ACS B25091,B25091_022E,Severely c
 median_gross_rent_1br,ACS B25031,B25031_003E,Median monthly gross rent for a one-bedroom renter-occupied unit,dollars/month,jurisdiction/countywide,estimate
 median_gross_rent_1br_moe,ACS B25031,B25031_003M,Margin of error for one-bedroom median gross rent,dollars/month,jurisdiction/countywide,margin of error
 one_br_rent_to_income_pct,ACS B25031 + B19013,annual one-bedroom rent / median household income,Benchmark comparing one-bedroom gross rent with median income for all households; not observed renter burden,percent,jurisdiction/countywide,benchmark
+median_home_value,ACS B25077,B25077_001E,Median value of owner-occupied housing units,dollars,jurisdiction/countywide,estimate
+median_home_value_moe,ACS B25077,B25077_001M,Margin of error for median home value,dollars,jurisdiction/countywide,margin of error
 median_owner_cost_with_mortgage,ACS B25088,B25088_002E,Median selected monthly owner costs for owners with a mortgage,dollars/month,jurisdiction/countywide,estimate
 median_owner_cost_without_mortgage,ACS B25088,B25088_003E,Median selected monthly owner costs for owners without a mortgage,dollars/month,jurisdiction/countywide,estimate
 median_owner_cost_with_mortgage_moe,ACS B25088,B25088_002M,Margin of error for median selected monthly owner costs with a mortgage,dollars/month,jurisdiction/countywide,margin of error
@@ -44,8 +48,10 @@ hud_four_person_extremely_low_income_limit,HUD FY2026 Income Limits,four-person 
 hud_four_person_very_low_income_limit,HUD FY2026 Income Limits,four-person very low-income limit,HUD four-person very low-income limit,dollars/year,San Diego regional,benchmark
 hud_four_person_low_income_limit,HUD FY2026 Income Limits,four-person low-income limit,HUD four-person low-income limit,dollars/year,San Diego regional,benchmark
 federally_assisted_properties,NHPD,NHPDPropertyID,Number of active federally assisted properties,properties,jurisdiction,inventory
+federally_assisted_units_estimated_conservative,NHPD,AssistedUnits,"Conservative estimate of federally assisted units using the maximum assisted-unit count across active subsidies for each active property, capped at total property units",assisted units,jurisdiction,inventory estimate
 total_units_in_assisted_properties,NHPD,TotalUnits,Total units located in active assisted properties; includes assisted and unassisted units,housing units,jurisdiction,inventory
-properties_expiring_within_5_years,NHPD,PropertyStatus + EarliestEndDate,Active assisted properties with an earliest subsidy expiration within five years,properties,jurisdiction,preservation risk
-units_in_expiring_properties,NHPD,TotalUnits + expiration flag,Total units located in properties with an earliest subsidy expiration within five years,housing units,jurisdiction,preservation risk
-expiring_subsidies,NHPD,subsidy_end_date,Number of subsidy records with an expiration date within the next five years,subsidies,jurisdiction/program,preservation risk
-assisted_units_with_expiring_subsidy,NHPD,assisted_units + subsidy_end_date,Assisted units reported on subsidy records expiring within five years; may overlap across subsidy programs,assisted units,jurisdiction/program,preservation risk
+properties_expiring_within_5_years,NHPD,active subsidy end dates,Active assisted properties with at least one active subsidy expiring within five years,properties,jurisdiction,preservation risk
+at_risk_assisted_units_estimated_conservative,NHPD,AssistedUnits + active subsidy end dates,"Conservative estimate of assisted units at risk using the maximum assisted-unit count among active subsidies expiring within five years for each property, capped at total property units",assisted units,jurisdiction,preservation risk estimate
+units_in_expiring_properties,NHPD,TotalUnits + subsidy expiration flag,Total units located in properties with at least one active subsidy expiring within five years; includes assisted and unassisted units,housing units,jurisdiction,preservation risk context
+expiring_subsidies,NHPD,subsidy_end_date,Number of active subsidy records with an expiration date within the next five years,subsidies,jurisdiction/program,preservation risk
+assisted_units_with_expiring_subsidy,NHPD,assisted_units + subsidy_end_date,Assisted units reported on active subsidy records expiring within five years; may overlap across subsidy programs and should not be summed across programs as a unique-unit total,assisted units,jurisdiction/program,preservation risk
